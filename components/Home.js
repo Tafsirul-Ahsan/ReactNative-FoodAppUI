@@ -18,7 +18,7 @@ import { color, round } from 'react-native-reanimated';
 
 
 
-export default function Home() {
+export default function Home({navigation}) {
     const renderCategoryItem = ({ item }) => {
         return (
           <View
